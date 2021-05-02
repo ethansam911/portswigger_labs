@@ -1,7 +1,7 @@
 # Portswigger Lab 
 
-### ([x]) Lab 1: Lab: SQL injection vulnerability allowing login bypass 
-
+### Lab 1: Lab: SQL injection vulnerability allowing login bypass 
+([x])
 #### Attempts:
 
 admin:admin 
@@ -20,3 +20,5 @@ Analysis:
 
 User in question is the administrator
 
+###  Lab 2: Lab: SQL injection vulnerability allowing login bypass 
+([])
