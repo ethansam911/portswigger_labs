@@ -1,7 +1,7 @@
 # Portswigger Lab 
 
 ### Lab 1: Lab: SQL injection vulnerability allowing login bypass 
-([x])
+-( [x] )
 #### Attempts:
 
 admin:admin 
@@ -21,4 +21,23 @@ Analysis:
 User in question is the administrator
 
 ###  Lab 2: Lab: SQL injection vulnerability allowing login bypass 
-([])
+-( [] )
+
+Analysis:
+
+SQLi in the product category filter.
+
+SQL example when selecting a category
+
+
+Goal:
+
+Display details of all products in any cateogry, released or unreleased
+
+SQLi:
+
+SELECT * FROM products WHERE category = 'Gifts' AND released = 1 
+
+' creates an internal server error.
+
+'or 1=1-- solves the lab 
